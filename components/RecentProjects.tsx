@@ -115,7 +115,7 @@ export default function RecentProjects() {
           >
             {/* Project Image */}
             <div className="relative px-8 py-4 bg-gradient-to-b from-blue-900 mb-2">
-              <Image
+              <img
                 src={project.image}
                 alt={project.title}
                 className="max-w-full max-h-64 object-cover"
@@ -135,8 +135,8 @@ export default function RecentProjects() {
               <div className="flex flex-col gap-4 justify-between mb-4 space-y-4 md:space-y-0">
                 {/* Tech Stack Icons */}
                 <div className="flex space-x-4 text-2xl text-white">
-                  {project.techStack.map((icon, index) => (
-                    <span key={index}>{icon}</span>
+                  {project.techStack.map((icon) => (
+                    <span key={icon.type.name}>{icon}</span>
                   ))}
                 </div>
 
