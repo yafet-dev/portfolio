@@ -118,7 +118,7 @@ export const testimonials = [
 
   {
     quote:
-      "Yafet has been instrumental in transforming Imperial Produce’s operations. His expertise across development and security, combined with a dedication to excellence, delivered a seamless system that improved our service and efficiency..",
+      "Yafet has been instrumental in transforming Imperial Produce`s operations. His expertise across development and security, combined with a dedication to excellence, delivered a seamless system that improved our service and efficiency..",
     name: "Iván  Godínez",
     title: "owner @Imperial Produce",
     profile: "/Ivan.jpg",
