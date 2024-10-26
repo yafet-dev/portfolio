@@ -3,6 +3,7 @@
 import React from "react";
 import { FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
+import Image from "next/image";
 
 import {
   SiMongodb,
@@ -114,7 +115,7 @@ export default function RecentProjects() {
           >
             {/* Project Image */}
             <div className="relative px-8 py-4 bg-gradient-to-b from-blue-900 mb-2">
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
                 className="max-w-full max-h-64 object-cover"
