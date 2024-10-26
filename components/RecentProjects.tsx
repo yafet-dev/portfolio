@@ -9,30 +9,42 @@ const projects = [
   {
     id: 1,
     type: "Full Stack",
-    title: "3D Solar System Planets to Explore",
+    title: "Imperial Produce",
     description:
-      "Explore the wonders of our solar system with this captivating 3D simulation using Three.js.",
-    image: "/p1.svg",
-    techStack: [<FaReact />, <FaNodeJs />, <FaGithub />],
-    liveLink: "#",
+      "Built a platform for customers to order, track deliveries, and pay securely, while the company manages sales and tracks orders efficiently.",
+    image: "/p1.png",
+    techStack: [<FaReact />, <FaNodeJs />],
+    liveLink: "https://www.imperialproduce.us",
   },
   {
     id: 2,
     type: "Landing Pages",
-    title: "Creative Portfolio Website",
-    description: "A beautifully designed portfolio website for creatives.",
-    image: "/p2.svg",
+    title: "Brain Wave",
+    description:
+      "Developed Brain Wave, a website featuring a beautiful UI, parallax effects, and eye-catching components for an engaging user experience.",
+    image: "/p2.png",
     techStack: [<FaReact />, <FaNodeJs />, <FaGithub />],
-    liveLink: "#",
+    liveLink: "https://brainwave-sigma-three.vercel.app/",
   },
   {
     id: 3,
-    type: "Website with Animations",
-    title: "Interactive Animation Showcase",
-    description: "A modern website with smooth animations built with GSAP.",
-    image: "/p3.svg",
+    type: "Landing Pages",
+    title: "Virtual-Reality",
+    description:
+      "Created Virtual-R, a simple and clean landing page designed for Tailwind CSS training",
+    image: "/p4.png",
     techStack: [<FaReact />, <FaNodeJs />, <FaGithub />],
-    liveLink: "#",
+    liveLink: "https://virtual-reality-gray.vercel.app/",
+  },
+  {
+    id: 4,
+    type: "Website with Animations",
+    title: "Web Weave",
+    description:
+      "A landing page for a software company that develops softwares",
+    image: "/p3.png",
+    techStack: [<FaReact />, <FaNodeJs />, <FaGithub />],
+    liveLink: "https://startup-mu-five.vercel.app/",
   },
 ];
 
@@ -45,7 +57,7 @@ export default function RecentProjects() {
   }, {} as Record<string, typeof projects>);
 
   return (
-    <div className="relative p-8 min-h-screen">
+    <div className="relative p-8 min-h-screen" id="projects">
       <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-b from-blue-500 to-blue-900 text-transparent bg-clip-text">
         Recent Projects
       </h2>

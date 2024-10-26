@@ -1,24 +1,14 @@
-import {
-  FaXTwitter,
-  FaGithub,
-  FaLinkedin,
-  FaFacebook,
-  FaDiscord,
-  FaInstagram,
-} from "react-icons/fa6";
-
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
+import { SiGraphql } from "react-icons/si";
+import { FaGitAlt } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
+import { FaShieldAlt } from "react-icons/fa";
 
-export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
-];
 export const SKILLS = [
   {
     icon: (
@@ -47,15 +37,7 @@ export const SKILLS = [
     name: "MongoDB",
     experience: "1.5+ years",
   },
-  {
-    icon: (
-      <span className="text-4xl text-red-600 lg:text-5xl">
-        <DiRedis />
-      </span>
-    ),
-    name: "Redis",
-    experience: "1+ year",
-  },
+
   {
     icon: (
       <span className="text-4xl text-green-600 lg:text-5xl">
@@ -74,6 +56,51 @@ export const SKILLS = [
     name: "PostgreSQL",
     experience: "1+ year",
   },
+  {
+    icon: (
+      <span className="text-4xl text-pink-500 lg:text-5xl">
+        <SiGraphql />
+      </span>
+    ),
+    name: "GraphQL",
+    experience: "1+ years",
+  },
+  {
+    icon: (
+      <span className="text-4xl text-orange-600 lg:text-5xl">
+        <FaGitAlt />
+      </span>
+    ),
+    name: "Git",
+    experience: "2+ years",
+  },
+  {
+    icon: (
+      <span className="text-4xl text-blue-400 lg:text-5xl">
+        <SiTailwindcss />
+      </span>
+    ),
+    name: "Tailwind CSS",
+    experience: "1.5+ years",
+  },
+  {
+    icon: (
+      <span className="text-4xl text-blue-500 lg:text-5xl">
+        <SiTypescript />
+      </span>
+    ),
+    name: "TypeScript",
+    experience: "1+ years",
+  },
+  {
+    icon: (
+      <span className="text-4xl text-red-600 lg:text-5xl">
+        <FaShieldAlt />
+      </span>
+    ),
+    name: "Web Security",
+    experience: "1+ year",
+  },
 ];
 
 export const EXPERIENCES = [
@@ -87,7 +114,7 @@ export const EXPERIENCES = [
   {
     title: "Full Stack Engineer",
     company: "Imperial Produce",
-    duration: "February 2016 - June 2020",
+    duration: "Jan, 2023 - July 2024",
     description:
       "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
   },
@@ -107,32 +134,5 @@ export const EDUCATION = [
     duration: "Oct 2019 - Jul 2024",
     description:
       " I gained deep expertise in software development, focusing on algorithms, data structures, full-stack development, and system design. I developed strong skills in problem-solving, software architecture, and cybersecurity, preparing me to build scalable and secure applications Graduated with a high GPA.",
-  },
-];
-
-export const SOCIAL_MEDIA_LINKS = [
-  {
-    href: "https://x.com/",
-    icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://x.com/",
-    icon: <FaXTwitter fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://github.com/",
-    icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
-  },
-  {
-    href: "https://www.linkedin.com/",
-    icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
