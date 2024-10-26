@@ -24,11 +24,17 @@ const projects = [
       "Built a platform for customers to order, track deliveries, and pay securely, while the company manages sales and tracks orders efficiently.",
     image: "/p1.png",
     techStack: [
-      <SiMongodb className="text-4xl text-green-600" />,
-      <SiExpress className="text-4xl text-gray-500" />,
-      <FaNodeJs className="text-4xl text-green-600" />,
-      <SiTailwindcss className="text-4xl text-blue-400" />,
-      <FaReact className="text-4xl text-cyan-400" />,
+      {
+        id: "mongodb",
+        icon: <SiMongodb className="text-4xl text-green-600" />,
+      },
+      { id: "express", icon: <SiExpress className="text-4xl text-gray-500" /> },
+      { id: "nodejs", icon: <FaNodeJs className="text-4xl text-green-600" /> },
+      {
+        id: "tailwind",
+        icon: <SiTailwindcss className="text-4xl text-blue-400" />,
+      },
+      { id: "react", icon: <FaReact className="text-4xl text-cyan-400" /> },
     ],
     liveLink: "https://www.imperialproduce.us",
   },
@@ -39,9 +45,12 @@ const projects = [
       "Developed Brain Wave, a website featuring a beautiful UI, parallax effects, and eye-catching components for an engaging user experience.",
     image: "/p2.png",
     techStack: [
-      <SiFramer className="text-4xl text-pink-500" />,
-      <FaReact className="text-4xl text-cyan-400" />,
-      <SiTailwindcss className="text-4xl text-blue-400" />,
+      { id: "framer", icon: <SiFramer className="text-4xl text-pink-500" /> },
+      { id: "react", icon: <FaReact className="text-4xl text-cyan-400" /> },
+      {
+        id: "tailwind",
+        icon: <SiTailwindcss className="text-4xl text-blue-400" />,
+      },
     ],
     liveLink: "https://brainwave-sigma-three.vercel.app/",
   },
@@ -52,8 +61,11 @@ const projects = [
       "Created Virtual-R, a simple and clean landing page designed for Tailwind CSS training.",
     image: "/p4.png",
     techStack: [
-      <FaReact className="text-4xl text-cyan-400" />,
-      <SiTailwindcss className="text-4xl text-blue-400" />,
+      { id: "react", icon: <FaReact className="text-4xl text-cyan-400" /> },
+      {
+        id: "tailwind",
+        icon: <SiTailwindcss className="text-4xl text-blue-400" />,
+      },
     ],
     liveLink: "https://virtual-reality-gray.vercel.app/",
   },
@@ -64,9 +76,12 @@ const projects = [
       "A landing page for a software company that develops software solutions.",
     image: "/p3.png",
     techStack: [
-      <SiFramer className="text-4xl text-pink-500" />,
-      <TbBrandNextjs className="text-4xl text-white" />,
-      <SiTailwindcss className="text-4xl text-blue-400" />,
+      { id: "framer", icon: <SiFramer className="text-4xl text-pink-500" /> },
+      { id: "nextjs", icon: <TbBrandNextjs className="text-4xl text-white" /> },
+      {
+        id: "tailwind",
+        icon: <SiTailwindcss className="text-4xl text-blue-400" />,
+      },
     ],
     liveLink: "https://startup-mu-five.vercel.app/",
   },
@@ -77,9 +92,12 @@ const projects = [
       "World tour website keeps track of users' adventures. A world map that tracks users' footsteps into every city they can think of.",
     image: "/p5.png",
     techStack: [
-      <FaReact className="text-4xl text-cyan-400" />,
-      <SiCss3 className="text-4xl text-blue-500" />,
-      <SiGooglemaps className="text-4xl text-red-500" />,
+      { id: "react", icon: <FaReact className="text-4xl text-cyan-400" /> },
+      { id: "css3", icon: <SiCss3 className="text-4xl text-blue-500" /> },
+      {
+        id: "googlemaps",
+        icon: <SiGooglemaps className="text-4xl text-red-500" />,
+      },
     ],
     liveLink: "https://world-tour-chi.vercel.app/",
   },
@@ -90,9 +108,15 @@ const projects = [
       "The Wild Oasis website is a hotel management platform that helps employers manage bookings, customers, and cabins.",
     image: "/p6.png",
     techStack: [
-      <FaReact className="text-4xl text-cyan-400" />,
-      <SiFirebase className="text-4xl text-yellow-500" />,
-      <SiTailwindcss className="text-4xl text-blue-400" />,
+      { id: "react", icon: <FaReact className="text-4xl text-cyan-400" /> },
+      {
+        id: "firebase",
+        icon: <SiFirebase className="text-4xl text-yellow-500" />,
+      },
+      {
+        id: "tailwind",
+        icon: <SiTailwindcss className="text-4xl text-blue-400" />,
+      },
     ],
     liveLink: "https://the-wild-oasis-4kd3.vercel.app/",
   },
@@ -136,8 +160,8 @@ export default function RecentProjects() {
               <div className="flex flex-col gap-4 justify-between mb-4 space-y-4 md:space-y-0">
                 {/* Tech Stack Icons */}
                 <div className="flex space-x-4 text-2xl text-white">
-                  {project.techStack.map((icon, index) => (
-                    <span key={index}>{icon}</span>
+                  {project.techStack.map((item) => (
+                    <span key={item.id}>{item.icon}</span>
                   ))}
                 </div>
 
