@@ -110,25 +110,32 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Cyber Security Engineer",
-    company: "Zergaw Cloud Service Provider",
-    duration: "July 2020 - Present",
+    title: "Full Stack Web Developer",
+    company: "Humani Tech",
+    duration: "July 2023 - May 2024",
     description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
+      "Developed a supply trail system for the United Nations Food Program to track supplies and manage donations efficiently. GitHub - humanitech-net/supply-trail.",
   },
   {
     title: "Full Stack Engineer",
     company: "Imperial Produce",
     duration: "Jan, 2023 - July 2024",
     description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
+      "Developed and maintained company websites and mobile apps using modern technologies, with a focus on secure coding practices. Integrated third-party APIs such as Google Maps for delivery tracking and Stripe for payment processing to enhance functionality.",
   },
   {
     title: "FreeLancer",
-    company: "Worked in 12+ Freelance Projects",
+    company: "Worked in 10+ Freelance Projects",
     duration: "August 2023 - Present",
     description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+      "I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing Mern Stack to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+  },
+  {
+    title: "Cyber Security Engineer",
+    company: "Zergaw Cloud Service Provider",
+    duration: "July 2024 - Present",
+    description:
+      "Implemented and managed security protocols, conducted vulnerability assessments, and led incident response to safeguard cloud infrastructure and customer data.",
   },
 ];
 
