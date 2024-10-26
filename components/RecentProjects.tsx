@@ -4,7 +4,6 @@ import React from "react";
 import { FaReact, FaNodeJs, FaGithub } from "react-icons/fa";
 import { BsArrowRight } from "react-icons/bs";
 import Image from "next/image";
-
 import {
   SiMongodb,
   SiTailwindcss,
@@ -15,6 +14,7 @@ import {
   SiFirebase,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+
 // Array of projects
 const projects = [
   {
@@ -45,7 +45,18 @@ const projects = [
     ],
     liveLink: "https://brainwave-sigma-three.vercel.app/",
   },
-
+  {
+    id: 3,
+    title: "Virtual-Reality",
+    description:
+      "Created Virtual-R, a simple and clean landing page designed for Tailwind CSS training.",
+    image: "/p4.png",
+    techStack: [
+      <FaReact className="text-4xl text-cyan-400" />,
+      <SiTailwindcss className="text-4xl text-blue-400" />,
+    ],
+    liveLink: "https://virtual-reality-gray.vercel.app/",
+  },
   {
     id: 4,
     title: "Web Weave",
@@ -85,18 +96,6 @@ const projects = [
     ],
     liveLink: "https://the-wild-oasis-4kd3.vercel.app/",
   },
-  {
-    id: 3,
-    title: "Virtual-Reality",
-    description:
-      "Created Virtual-R, a simple and clean landing page designed for Tailwind CSS training.",
-    image: "/p4.png",
-    techStack: [
-      <FaReact className="text-4xl text-cyan-400" />,
-      <SiTailwindcss className="text-4xl text-blue-400" />,
-    ],
-    liveLink: "https://virtual-reality-gray.vercel.app/",
-  },
 ];
 
 export default function RecentProjects() {
@@ -115,10 +114,12 @@ export default function RecentProjects() {
           >
             {/* Project Image */}
             <div className="relative px-8 py-4 bg-gradient-to-b from-blue-900 mb-2">
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
-                className="max-w-full max-h-64 object-cover"
+                width={300}
+                height={200}
+                className="object-cover"
               />
               {/* Dark Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80 group-hover:opacity-50 transition-opacity"></div>
@@ -135,8 +136,8 @@ export default function RecentProjects() {
               <div className="flex flex-col gap-4 justify-between mb-4 space-y-4 md:space-y-0">
                 {/* Tech Stack Icons */}
                 <div className="flex space-x-4 text-2xl text-white">
-                  {project.techStack.map((icon) => (
-                    <span key={icon.type.name}>{icon}</span>
+                  {project.techStack.map((icon, index) => (
+                    <span key={index}>{icon}</span>
                   ))}
                 </div>
 
