@@ -6,7 +6,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { SiGraphql } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiGo } from "react-icons/si";
 import { FaShieldAlt } from "react-icons/fa";
 
 export const SKILLS = [
@@ -100,6 +100,11 @@ export const SKILLS = [
     ),
     name: "Web Security",
     experience: "1+ year",
+  },
+  {
+    icon: <SiGo className="text-4xl text-cyan-500" />,
+    name: "Golang",
+    experience: "6 months",
   },
 ];
 
