@@ -54,21 +54,7 @@ const projects = [
     ],
     liveLink: "https://brainwave-sigma-three.vercel.app/",
   },
-  {
-    id: 3,
-    title: "Virtual-Reality",
-    description:
-      "Created Virtual-R, a simple and clean landing page designed for Tailwind CSS training.",
-    image: "/p4.png",
-    techStack: [
-      { id: "react", icon: <FaReact className="text-4xl text-cyan-400" /> },
-      {
-        id: "tailwind",
-        icon: <SiTailwindcss className="text-4xl text-blue-400" />,
-      },
-    ],
-    liveLink: "https://virtual-reality-gray.vercel.app/",
-  },
+
   {
     id: 4,
     title: "Web Weave",
@@ -120,6 +106,21 @@ const projects = [
     ],
     liveLink: "https://the-wild-oasis-4kd3.vercel.app/",
   },
+  {
+    id: 3,
+    title: "Virtual-Reality",
+    description:
+      "Created Virtual-R, a simple and clean landing page designed for Tailwind CSS training.",
+    image: "/p4.png",
+    techStack: [
+      { id: "react", icon: <FaReact className="text-4xl text-cyan-400" /> },
+      {
+        id: "tailwind",
+        icon: <SiTailwindcss className="text-4xl text-blue-400" />,
+      },
+    ],
+    liveLink: "https://virtual-reality-gray.vercel.app/",
+  },
 ];
 
 export default function RecentProjects() {
@@ -137,13 +138,13 @@ export default function RecentProjects() {
             className="relative border border-white/30 rounded-lg overflow-hidden shadow-lg group bg-black/50 transition-all duration-300 hover:shadow-[0_-10px_20px_rgba(59,130,246,0.8)]"
           >
             {/* Project Image */}
-            <div className="relative px-8 py-4 bg-gradient-to-b from-blue-900 mb-2">
+            <div className="relative px-8 py-4 bg-gradient-to-b from-blue-900 mb-2 ">
               <Image
                 src={project.image}
                 alt={project.title}
                 width={300}
                 height={200}
-                className="object-cover"
+                className="transition-transform duration-500 ease-in-out group-hover:scale-110 group-hover:rotate-1 rounded-lg"
               />
               {/* Dark Gradient Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80 group-hover:opacity-50 transition-opacity"></div>
