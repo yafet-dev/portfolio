@@ -17,7 +17,7 @@ export const SKILLS = [
       </span>
     ),
     name: "React",
-    experience: "2+ years",
+    experience: "5+ years",
   },
   {
     icon: (
@@ -26,7 +26,7 @@ export const SKILLS = [
       </span>
     ),
     name: "Next.js",
-    experience: "1+ year",
+    experience: "2+ year",
   },
   {
     icon: (
@@ -35,7 +35,7 @@ export const SKILLS = [
       </span>
     ),
     name: "MongoDB",
-    experience: "1.5+ years",
+    experience: "2+ years",
   },
 
   {
@@ -54,7 +54,7 @@ export const SKILLS = [
       </span>
     ),
     name: "PostgreSQL",
-    experience: "1+ year",
+    experience: "1.5+ year",
   },
   {
     icon: (
@@ -63,7 +63,7 @@ export const SKILLS = [
       </span>
     ),
     name: "GraphQL",
-    experience: "1+ years",
+    experience: "2+ years",
   },
   {
     icon: (
@@ -99,12 +99,12 @@ export const SKILLS = [
       </span>
     ),
     name: "Web Security",
-    experience: "1+ year",
+    experience: "2+ year",
   },
   {
     icon: <SiGo className="text-4xl text-cyan-500" />,
     name: "Golang",
-    experience: "6 months",
+    experience: "9 months",
   },
 ];
 
