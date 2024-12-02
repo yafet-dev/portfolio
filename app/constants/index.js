@@ -112,14 +112,14 @@ export const EXPERIENCES = [
   {
     title: "Full Stack Web Developer",
     company: "Humani Tech",
-    duration: "July 2023 - May 2024",
+    duration: "July 2022 - May 2024",
     description:
       "Developed a supply trail system for the United Nations Food Program to track supplies and manage donations efficiently. GitHub - humanitech-net/supply-trail.",
   },
   {
     title: "Full Stack Engineer",
     company: "Imperial Produce",
-    duration: "Jan, 2023 - July 2024",
+    duration: "Jan, 2020 - July 2022",
     description:
       "Developed and maintained company websites and mobile apps using modern technologies, with a focus on secure coding practices. Integrated third-party APIs such as Google Maps for delivery tracking and Stripe for payment processing to enhance functionality.",
   },
@@ -132,8 +132,8 @@ export const EXPERIENCES = [
   },
   {
     title: "Cyber Security Engineer",
-    company: "Zergaw Cloud Service Provider",
-    duration: "July 2024 - Present",
+    company: " Cyware",
+    duration: "Feb 2024 - Present",
     description:
       "Implemented and managed security protocols, conducted vulnerability assessments, and led incident response to safeguard cloud infrastructure and customer data.",
   },
@@ -141,9 +141,9 @@ export const EXPERIENCES = [
 
 export const EDUCATION = [
   {
-    degree: "Bachelor of Science in Electrical and Computer Engineering",
+    degree: "Bachelor of Computer Science",
     institution: "Addis Ababa Institue of Technology, Addis Ababa",
-    duration: "Oct 2019 - Jul 2024",
+    duration: "Oct 2016 - Jul 2020",
     description:
       " I gained deep expertise in software development, focusing on algorithms, data structures, full-stack development, and system design. I developed strong skills in problem-solving, software architecture, and cybersecurity, preparing me to build scalable and secure applications Graduated with a high GPA.",
   },
