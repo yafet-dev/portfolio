@@ -35,7 +35,7 @@ export const SKILLS = [
       </span>
     ),
     name: "MongoDB",
-    experience: "2+ years",
+    experience: "3+ years",
   },
 
   {
@@ -45,7 +45,7 @@ export const SKILLS = [
       </span>
     ),
     name: "Node.js",
-    experience: "2+ years",
+    experience: "4+ years",
   },
   {
     icon: (
@@ -54,7 +54,7 @@ export const SKILLS = [
       </span>
     ),
     name: "PostgreSQL",
-    experience: "1.5+ year",
+    experience: "2.5+ year",
   },
   {
     icon: (
