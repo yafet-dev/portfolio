@@ -17,7 +17,7 @@ export const SKILLS = [
       </span>
     ),
     name: "React",
-    experience: "3+ years",
+    experience: "4+ years",
   },
   {
     icon: (
@@ -72,7 +72,7 @@ export const SKILLS = [
       </span>
     ),
     name: "Git",
-    experience: "2+ years",
+    experience: "4+ years",
   },
   {
     icon: (
@@ -104,7 +104,7 @@ export const SKILLS = [
   {
     icon: <SiGo className="text-4xl text-cyan-500" />,
     name: "Golang",
-    experience: "9 months",
+    experience: "10 months",
   },
 ];
 
