@@ -28,7 +28,6 @@ const projects = [
         id: "mongodb",
         icon: <SiMongodb className="text-4xl text-green-600" />,
       },
-      { id: "express", icon: <SiExpress className="text-4xl text-gray-500" /> },
       { id: "nodejs", icon: <FaNodeJs className="text-4xl text-green-600" /> },
       {
         id: "tailwind",
