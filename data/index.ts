@@ -218,6 +218,6 @@ export const socialMedia = [
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/yafet-zerihun-620a0b23a/", // Replace with your LinkedIn profile link
+    link: "https://www.linkedin.com/in/yafet-zerihun/", // Replace with your LinkedIn profile link
   },
 ];
